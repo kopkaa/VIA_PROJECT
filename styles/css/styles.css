@@ -14,11 +14,16 @@ html, body {
   font-size: 16px; }
 
 header .header__main {
-  background: linear-gradient(#3204fdba, #9907facc), url("../../img/bgheader.png");
-  background-position: center;
+  background: url("../../img/bgheader.png");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%; }
+  header .header__main--overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #243d7e;
+    opacity: 0.4; }
 
 header .socials {
   display: flex;
