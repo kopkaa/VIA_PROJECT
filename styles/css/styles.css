@@ -49,17 +49,19 @@ header nav ul {
   background-color: white; }
 
 header nav li {
-  float: left; }
+  color: #243d7e; }
 
 header nav li a {
   display: block;
   color: #243d7e;
-  text-align: center;
   padding: 16px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   font-weight: 800; }
+
+header nav li:last-child {
+  margin-left: auto; }
 
 header nav img:nth-child(1) {
   margin-right: 3rem; }

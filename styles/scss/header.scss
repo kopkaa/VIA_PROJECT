@@ -42,13 +42,12 @@ header {
 		}
 
 		li {
-			float: left;
+			color: $main_color;
 		}
 
 		li a {
 			display: block;
 			color: $main_color;
-			text-align: center;
 			padding: 16px;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -56,6 +55,10 @@ header {
 			font-weight: 800;
 		}
 
+
+		li:last-child {
+			margin-left: auto;
+		}
 
 		img:nth-child(1) {
 			margin-right: 3rem;
