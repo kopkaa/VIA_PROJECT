@@ -1,6 +1,13 @@
 header {
+	
+	.header__main {
+		background-color:red;
+		height: calc(100% - 125px);
+	}
+
 	.socials {
 		display: flex;
+		min-height: 25px;
 		align-items: center;
 		justify-content: space-between;
 		padding: 1vh $layout_padding;
@@ -13,6 +20,7 @@ header {
 		a {
 			text-decoration: none;
 			color: $main_color;
+			margin-left: 0.5rem;
 
 			i {
 				margin-right: 0.5em;
@@ -48,7 +56,7 @@ header {
 		li a {
 			display: block;
 			color: $main_color;
-			padding: 16px;
+			padding: 1rem;
 			text-decoration: none;
 			text-transform: uppercase;
 			font-family: 'Lato', sans-serif;

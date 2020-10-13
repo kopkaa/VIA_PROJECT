@@ -19,8 +19,13 @@ html, body {
     html, body {
       font-size: 16px; } }
 
+header .header__main {
+  background-color: red;
+  height: calc(100% - 125px); }
+
 header .socials {
   display: flex;
+  min-height: 25px;
   align-items: center;
   justify-content: space-between;
   padding: 1vh 15vw;
@@ -31,7 +36,8 @@ header .socials {
   border-bottom: 1px solid #dfe6c9; }
   header .socials a {
     text-decoration: none;
-    color: #243d7e; }
+    color: #243d7e;
+    margin-left: 0.5rem; }
     header .socials a i {
       margin-right: 0.5em; }
     header .socials a:hover {
@@ -54,7 +60,7 @@ header nav li {
 header nav li a {
   display: block;
   color: #243d7e;
-  padding: 16px;
+  padding: 1rem;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
