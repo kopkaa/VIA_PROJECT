@@ -1,7 +1,11 @@
 header {
 	
 	.header__main {
-		background:url('../../img/bgheader.png');
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: url('../../img/bgheader.png');
 	    background-position: center center;
     	background-repeat: no-repeat;
     	background-size: cover;
@@ -12,6 +16,27 @@ header {
 		   height: 100%;
 		   background-color: $main_color;
 		   opacity: 0.4;
+    	}
+
+    	&--title {
+    		position: absolute;
+    		bottom: 50%;
+    		max-width: 50%;
+    		text-align: center;
+
+    		.main {
+    			text-transform: uppercase;
+    			color: white;
+    			font-size: 4rem;
+    			font-weight: 800;
+    			font-family: 'Lato', sans-serif;
+    			margin: 0px!important;
+    		}
+
+    		.second {
+    			color: #bdc3c7;
+    			font-family: 'Lato', sans-serif;
+    		}
     	}
     }
 
