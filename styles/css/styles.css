@@ -11,13 +11,7 @@ body {
 
 html, body {
   margin: 0;
-  font-size: 12px; }
-  @media (min-width: 800px) {
-    html, body {
-      font-size: 14px; } }
-  @media (min-width: 1200px) {
-    html, body {
-      font-size: 16px; } }
+  font-size: 16px; }
 
 header .header__main {
   background-color: red;
@@ -71,3 +65,13 @@ header nav li:last-child {
 
 header nav img:nth-child(1) {
   margin-right: 3rem; }
+
+@media only screen and (min-width: 768px) {
+  body, html {
+    font-size: 14px; }
+  header nav ul {
+    paddding: 0; } }
+
+@media only screen and (min-width: 1200px) {
+  body, html {
+    font-size: 16px; } }
