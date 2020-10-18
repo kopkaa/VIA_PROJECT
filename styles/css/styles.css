@@ -31,6 +31,7 @@ header .header__main {
   header .header__main--title {
     position: absolute;
     bottom: 50%;
+    transform: translateY(50%);
     max-width: 50%;
     text-align: center; }
     header .header__main--title .main {
@@ -51,7 +52,7 @@ header .header__main {
     background-color: #33d9b2;
     display: block;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     border: none;
     border-radius: 3px;
     color: white;

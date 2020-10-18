@@ -21,6 +21,7 @@ header {
     	&--title {
     		position: absolute;
     		bottom: 50%;
+		    transform: translateY(50%);
     		max-width: 50%;
     		text-align: center;
 
@@ -43,7 +44,7 @@ header {
     		background-color: $light_green;
 		    display: block;
 		    margin: auto;
-		    margin-top: 2rem;
+		    margin-top: 2.5rem;
 		    border: none;
 		    border-radius: 3px;
 		    color: white;
