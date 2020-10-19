@@ -50,6 +50,12 @@ header {
 		    color: white;
 		    min-width: 250px;
 		    padding: 1rem 2rem;
+			transition: 0.3s;	
+
+		    &:hover {
+				cursor: pointer;
+				background-color: darken($light_green, 15%);
+		    }
     	}
 
     }

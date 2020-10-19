@@ -57,7 +57,11 @@ header .header__main {
     border-radius: 3px;
     color: white;
     min-width: 250px;
-    padding: 1rem 2rem; }
+    padding: 1rem 2rem;
+    transition: 0.3s; }
+    header .header__main--button:hover {
+      cursor: pointer;
+      background-color: #1ea183; }
 
 header .socials {
   font-family: 'Lato', sans-serif;
