@@ -135,6 +135,9 @@ header nav li:last-child {
   .homepage__main div {
     display: flex;
     flex-direction: column; }
+  .homepage__main--about {
+    display: flex;
+    justify-content: space-evenly; }
 
 @media only screen and (max-width: 768px) {
   body, html {
