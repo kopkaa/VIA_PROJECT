@@ -13,6 +13,24 @@ html, body {
   margin: 0;
   font-size: 16px; }
 
+h2 {
+  color: #49637E;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 0; }
+
+main {
+  padding: 0 15vw; }
+
+p {
+  color: #49637E;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.75rem; }
+
 header .header__main {
   position: relative;
   display: flex;
@@ -108,6 +126,15 @@ header nav li a {
 
 header nav li:last-child {
   margin-left: auto; }
+
+.homepage__main {
+  width: 100%;
+  text-align: center; }
+  .homepage__main h2 {
+    margin-top: 6rem; }
+  .homepage__main div {
+    display: flex;
+    flex-direction: column; }
 
 @media only screen and (max-width: 768px) {
   body, html {
