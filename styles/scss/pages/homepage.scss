@@ -12,9 +12,38 @@
 			flex-direction: column;
 		}
 
+		&--intro {
+			&__title {
+				padding: 0 6.5em;
+			}
+		}
+
 		&--about {
-			display: flex;
+			flex-direction: row!important;
 			justify-content: space-evenly;
+
+			&__wrapper {
+				text-align: left;
+			    flex-direction: row!important;
+
+			    div:first-of-type {
+			    	margin-right: 30px;
+
+			    	i {
+			    		font-size: 3rem;
+			    		color: $light_green;
+			    	}
+			    }
+
+
+		    	h3 {
+		    		margin-top: 0px;
+		    	}
+			}
+
+			p {
+				font-size: 1em!important;
+			}
 		}
 
 	}

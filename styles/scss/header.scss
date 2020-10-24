@@ -22,8 +22,8 @@ header {
     		position: absolute;
     		bottom: 50%;
 		    transform: translateY(50%);
-    		max-width: 50%;
     		text-align: center;
+    		padding: $layout_padding;
 
     		.main {
     			@include fontLato(4rem, 800);
@@ -33,8 +33,10 @@ header {
     		}
 
     		.second {
+    			display: block;
     			color: $text-color;
-    			font-family: 'Lato', sans-serif;
+    			@include fontLato(1.2rem, 500);
+    			padding: 0 6.5em;   		
     		}
     	}
 
