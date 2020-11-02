@@ -19,9 +19,7 @@ html, body {
 h2 {
     color: $main-color;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-weight: 800;
-    font-size: 2rem;
+    @include fontLato(1.8rem, 800);
     padding: 0;
 }
 
@@ -32,6 +30,7 @@ main {
 p {
     color: $main-color;
     @include fontLato(1.2rem, 500);
-    line-height: 1.65rem;   
+    line-height: 1.65rem;
+    margin-top: 0px;
 }
 

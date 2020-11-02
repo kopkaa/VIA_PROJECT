@@ -14,29 +14,32 @@
 
 		&--intro {
 			&__title {
-				padding: 0 6.5em;
+				padding: 0 5em;
 			}
 		}
 
 		&--about {
 			flex-direction: row!important;
 			justify-content: space-evenly;
+			margin-top: 5rem;
 
 			&__wrapper {
 				text-align: left;
 			    flex-direction: row!important;
 
 			    div:first-of-type {
-			    	margin-right: 30px;
+			    	margin-right: 2rem;
 
 			    	i {
-			    		font-size: 3rem;
+			    		font-size: 2rem;
 			    		color: $light_green;
 			    	}
 			    }
 
 
 		    	h3 {
+						@include fontLato(1.25rem, 800);
+						color: $main-color;
 		    		margin-top: 0px;
 		    	}
 			}
