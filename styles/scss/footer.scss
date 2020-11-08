@@ -144,6 +144,17 @@ footer {
 					text-decoration: none;
 					color: darken($light-grey, 20%);
 				}
+
+				&:after {
+					content: "•";
+					color: darken($light-grey, 20%);
+					margin-left: 1rem;
+				}
+			}
+
+			li:last-of-type:after {
+				content: ""!important;
+				margin-left: 0rem!important;
 			}
 		}
 	}

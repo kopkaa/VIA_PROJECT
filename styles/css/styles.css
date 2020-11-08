@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 :root {
   font-size: 1em;
@@ -260,6 +261,13 @@ footer .footer-second {
         font-weight: 600;
         text-decoration: none;
         color: #a3b7bf; }
+      footer .footer-second ul li:after {
+        content: "•";
+        color: #a3b7bf;
+        margin-left: 1rem; }
+    footer .footer-second ul li:last-of-type:after {
+      content: "" !important;
+      margin-left: 0rem !important; }
 
 .homepage__main {
   width: 100%;
