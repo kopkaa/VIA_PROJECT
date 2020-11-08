@@ -168,6 +168,8 @@ header nav li:last-child {
     flex-direction: row !important;
     justify-content: space-evenly;
     margin-top: 5rem; }
+    .homepage__main--about div:nth-child(3) p {
+      padding-right: 0rem !important; }
     .homepage__main--about__wrapper {
       text-align: left;
       flex-direction: row !important; }
@@ -183,7 +185,8 @@ header nav li:last-child {
         color: #49637E;
         margin-top: 0px; }
     .homepage__main--about p {
-      font-size: 1em !important; }
+      font-size: 1em !important;
+      padding-right: 1.8rem; }
 
 @media only screen and (max-width: 768px) {
   body, html {
