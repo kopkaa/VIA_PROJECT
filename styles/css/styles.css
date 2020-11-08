@@ -167,7 +167,8 @@ footer {
   footer p {
     font-size: 0.875rem !important;
     font-weight: 500;
-    color: #a3b7bf; }
+    color: #a3b7bf;
+    padding-right: 2rem; }
   footer .column {
     min-width: 300px;
     text-align: left;
@@ -176,7 +177,9 @@ footer {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      height: 100%; }
+      height: 100%;
+      margin-top: 9px;
+      padding-right: 2rem; }
       footer .column .grid-2x2 img {
         width: calc(50% - 3px);
         height: auto; }
@@ -184,6 +187,16 @@ footer {
         margin-left: 5px; }
       footer .column .grid-2x2 img:nth-of-type(-n+2) {
         margin-bottom: 5px; }
+  footer .socials {
+    margin-right: auto; }
+    footer .socials .icons span {
+      font-family: 'Lato', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #a3b7bf;
+      margin-bottom: 5px; }
+      footer .socials .icons span i {
+        margin-right: 1rem; }
   footer .logo {
     background-image: url("../../img/logo.png");
     background-size: 100px;
@@ -197,6 +210,34 @@ footer {
     font-size: 0.875rem;
     font-weight: 900;
     color: #a3b7bf; }
+  footer .updates p {
+    padding-right: 0rem !important; }
+  footer .updates .buttonIn {
+    width: 300px;
+    position: relative; }
+  footer .updates input {
+    border: 0;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    height: 100%;
+    background-color: #a3b7bf;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500; }
+  footer .updates button {
+    top: 10%;
+    position: absolute;
+    right: 8px;
+    z-index: 2;
+    border: none;
+    height: 80%;
+    cursor: pointer;
+    color: white;
+    background-color: #33d9b2;
+    font-weight: 600;
+    transform: translateX(2px); }
 
 .homepage__main {
   width: 100%;

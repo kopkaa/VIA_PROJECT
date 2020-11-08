@@ -16,7 +16,9 @@ footer {
 		font-size: 0.875rem!important;
 		font-weight: 500;
 		color: darken($light-grey, 20%);
+		padding-right: 2rem;
 	}
+
 
 	.column {
 		min-width: 300px;
@@ -28,6 +30,8 @@ footer {
 			flex-direction: row;
 			flex-wrap: wrap;
 			height: 100%;
+			margin-top: 9px;
+			padding-right: 2rem;
 
 			img {
 				width: calc(50% - 3px);
@@ -40,6 +44,22 @@ footer {
 
 			img:nth-of-type(-n+2) {
 				margin-bottom: 5px;
+			}
+		}
+
+	}
+
+	.socials {
+		margin-right: auto;
+		.icons {
+			span {
+				@include fontLato(0.875rem, 600);
+				color: darken($light-grey, 20%);
+				margin-bottom: 5px;
+
+				i {
+					margin-right: 1rem;
+				}
 			}
 		}
 	}
@@ -59,4 +79,41 @@ footer {
 		@include fontLato(0.875rem, 900);
 		color: darken($light-grey, 20%);
 	}
+
+	.updates {
+		p {
+			padding-right: 0rem!important;
+		}
+
+		.buttonIn { 
+				width: 300px; 
+				position: relative;
+		} 
+			
+		input { 
+				border: 0;
+				margin: 0px; 
+				padding: 10px; 
+				width: 100%; 
+				outline: none;
+				height: 100%;
+				background-color: darken($light-grey, 20%);
+				@include fontLato(0.875rem, 500);
+		} 
+			
+		button { 
+				top: 10%;
+				position: absolute; 
+				right: 8px; 
+				z-index: 2; 
+				border: none; 
+				height: 80%; 
+				cursor: pointer; 
+				color: white; 
+				background-color: $light_green;
+				font-weight: 600;
+				transform: translateX(2px); 
+		} 
+	}
+	
 }
