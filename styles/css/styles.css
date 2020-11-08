@@ -191,20 +191,30 @@ header nav li:last-child {
     background-color: #dfe6e9; }
     .homepage__main--work__wrapper {
       flex-direction: row !important;
+      flex-wrap: wrap;
       margin-top: 5rem; }
+      .homepage__main--work__wrapper img {
+        width: 100%;
+        height: auto; }
       .homepage__main--work__wrapper div:nth-child(even) {
         margin-left: 2rem; }
       .homepage__main--work__wrapper .card {
-        background-color: white; }
-        .homepage__main--work__wrapper .card img {
-          width: 100%;
-          height: auto; }
+        background-color: white;
+        width: calc(50% - 1rem); }
         .homepage__main--work__wrapper .card__text {
           padding: 1.2rem; }
           .homepage__main--work__wrapper .card__text p {
             margin-bottom: 0px !important; }
           .homepage__main--work__wrapper .card__text--small {
             font-size: 0.875rem; }
+      .homepage__main--work__wrapper .photo-list {
+        flex-direction: row !important;
+        margin-top: 4rem; }
+        .homepage__main--work__wrapper .photo-list img {
+          width: calc(25% - 1.5rem);
+          margin-left: 2rem; }
+        .homepage__main--work__wrapper .photo-list img:nth-of-type(1) {
+          margin-left: 0 !important; }
 
 @media only screen and (max-width: 768px) {
   body, html {
