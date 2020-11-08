@@ -3,16 +3,15 @@
 		width: 100%;
 		text-align: center;
 
-		h2 {
-			margin-top: 6rem;
-		}
-
 		div {
 			display: flex;
 			flex-direction: column;
 		}
 
-		&--intro {
+		&--intro,
+		&--work {
+			padding: 0 $layout_padding;
+			margin-top: 6rem;
 			&__title {
 				padding: 0 5em;
 			}
@@ -54,6 +53,42 @@
 				font-size: 1em!important;
 				padding-right: 1.8rem;
 			}
+		}
+
+		&--work {
+			margin-top: 8rem;
+			padding-top: 5rem;
+			background-color: $light-grey;
+
+			&__wrapper {
+				flex-direction: row!important;
+				margin-top: 5rem;
+
+				div:nth-child(even) {
+					margin-left: 2rem;
+				}
+
+				.card {
+					background-color: white;
+					img {
+						width: 100%;
+						height: auto;
+					}
+
+					&__text {
+						padding: 1.2rem;
+
+						p {
+							margin-bottom: 0px!important;
+						}
+
+						&--small {
+							font-size: 0.875rem;
+						}
+					}
+				}
+			}
+
 		}
 
 	}

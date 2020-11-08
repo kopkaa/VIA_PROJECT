@@ -21,9 +21,6 @@ h2 {
   font-weight: 800;
   padding: 0; }
 
-main {
-  padding: 0 15vw; }
-
 p {
   color: #49637E;
   font-family: 'Lato', sans-serif;
@@ -157,13 +154,14 @@ header nav li:last-child {
 .homepage__main {
   width: 100%;
   text-align: center; }
-  .homepage__main h2 {
-    margin-top: 6rem; }
   .homepage__main div {
     display: flex;
     flex-direction: column; }
-  .homepage__main--intro__title {
-    padding: 0 5em; }
+  .homepage__main--intro, .homepage__main--work {
+    padding: 0 15vw;
+    margin-top: 6rem; }
+    .homepage__main--intro__title, .homepage__main--work__title {
+      padding: 0 5em; }
   .homepage__main--about {
     flex-direction: row !important;
     justify-content: space-evenly;
@@ -187,6 +185,26 @@ header nav li:last-child {
     .homepage__main--about p {
       font-size: 1em !important;
       padding-right: 1.8rem; }
+  .homepage__main--work {
+    margin-top: 8rem;
+    padding-top: 5rem;
+    background-color: #dfe6e9; }
+    .homepage__main--work__wrapper {
+      flex-direction: row !important;
+      margin-top: 5rem; }
+      .homepage__main--work__wrapper div:nth-child(even) {
+        margin-left: 2rem; }
+      .homepage__main--work__wrapper .card {
+        background-color: white; }
+        .homepage__main--work__wrapper .card img {
+          width: 100%;
+          height: auto; }
+        .homepage__main--work__wrapper .card__text {
+          padding: 1.2rem; }
+          .homepage__main--work__wrapper .card__text p {
+            margin-bottom: 0px !important; }
+          .homepage__main--work__wrapper .card__text--small {
+            font-size: 0.875rem; }
 
 @media only screen and (max-width: 768px) {
   body, html {
