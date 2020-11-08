@@ -1,6 +1,8 @@
 footer {
+
+.footer {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row!important;
 	justify-content: space-between;
 	padding: 0 $layout_padding;
 	background-color: $footer_color;
@@ -81,13 +83,10 @@ footer {
 	}
 
 	.updates {
-		p {
-			padding-right: 0rem!important;
-		}
 
 		.buttonIn { 
-				width: 300px; 
 				position: relative;
+				padding-right: 2rem;
 		} 
 			
 		input { 
@@ -104,7 +103,7 @@ footer {
 		button { 
 				top: 10%;
 				position: absolute; 
-				right: 8px; 
+				right: 42px; 
 				z-index: 2; 
 				border: none; 
 				height: 80%; 
@@ -116,4 +115,36 @@ footer {
 		} 
 	}
 	
+}
+
+	.footer-second {
+		width: 100%;
+		min-height: 120px;
+		padding: 0 $layout_padding;
+		background: darken($main_color, 20%);
+		flex-direction: row!important;
+		align-items: center;
+		justify-content: space-between;
+
+		p {
+			font-size: 0.875rem;
+			text-align: left;
+			margin-bottom: 0px!important;
+		}
+
+		ul {
+			list-style-type: none;
+
+			li {
+				float: left;
+				margin-left: 1rem;;
+
+				a {
+					@include fontLato(1rem, 600);
+					text-decoration: none;
+					color: darken($light-grey, 20%);
+				}
+			}
+		}
+	}
 }
