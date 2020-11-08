@@ -57,7 +57,7 @@
 
 		&--work {
 			margin-top: 8rem;
-			padding-top: 5rem;
+			padding: 5rem $layout_padding;
 			background-color: $light-grey;
 
 			&__wrapper {
@@ -103,9 +103,30 @@
 					img:nth-of-type(1) {
 						margin-left: 0!important;
 					}
+
+					&__controls {
+						flex-direction: row!important;
+						width: 100%;
+						justify-content: center;
+						margin-top: 2rem;
+						margin-left: 0px!important;
+
+						.dot {
+							  margin: 0.2rem;
+							  height: 15px;
+							  width: 15px;
+							  background-color: #bbb;
+							  border-radius: 50%;
+							  display: inline-block;
+						}
+					}
 				}
 			}
 
+		}
+
+		&--workWithUs {
+			padding: 5rem $layout_padding;
 		}
 
 	}

@@ -31,3 +31,23 @@ p {
     margin-top: 0px;
 }
 
+.green-button {
+    @include fontLato(1rem, 800 );
+    text-transform: uppercase;
+    background-color: $light_green;
+    display: block;
+    margin: auto;
+    margin-top: 2.5rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 1rem 2rem;
+    transition: 0.3s;
+
+
+    &:hover {
+        cursor: pointer;
+        background-color: darken($light_green, 15%);
+    }
+}
+
