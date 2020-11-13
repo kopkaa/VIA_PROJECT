@@ -37,14 +37,14 @@
 
 			    	i {
 			    		font-size: 2rem;
-			    		color: $beaver;
+			    		color: $footer-color;
 			    	}
 			    }
 
 
 		    	h3 {
 						@include fontLato(1.25rem, 800);
-						color: $main-color;
+						color: $text-color;
 		    		margin-top: 0px;
 		    	}
 			}

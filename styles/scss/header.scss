@@ -102,14 +102,14 @@ header {
 		}
 
 		li {
-			color: $menu_items;
+			color: $text-color;
 			padding: 1rem;
 		}
 
 		li a {
 			@include fontLato(0.83rem, 800);
 			display: block;
-			color: $menu_items;
+			color: $text-color;
 			text-decoration: none;
 			text-transform: uppercase;
 			position: relative;
@@ -121,7 +121,7 @@ header {
 				height: 2px;
 				bottom: -5px;
 				left: 0;
-				background-color:darken($main-color, 20%);
+				background-color:darken($text-color, 20%);
 				visibility: hidden;
 				transform: scaleX(0);
 				transition: all 0.3s ease-in-out 0s;
@@ -132,7 +132,7 @@ header {
 				transform: scaleX(1);
 			}
 			&:hover {
-				color: darken($main-color, 20%);
+				color: darken($text-color, 20%);
 			}
 		}
 	}

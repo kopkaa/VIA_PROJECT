@@ -15,7 +15,7 @@ html, body {
   font-size: 16px; }
 
 h2 {
-  color: #be986d;
+  color: #2d3436;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   font-size: 1.8rem;
@@ -23,7 +23,7 @@ h2 {
   padding: 0; }
 
 p {
-  color: #be986d;
+  color: #2d3436;
   font-family: 'Lato', sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
@@ -35,7 +35,7 @@ p {
   font-size: 1rem;
   font-weight: 800;
   text-transform: uppercase;
-  background-color: #a9845aff;
+  background-color: #be986d;
   display: block;
   margin: auto;
   margin-top: 2.5rem;
@@ -128,7 +128,7 @@ header nav ul {
     transform: translateX(-50%); }
 
 header nav li {
-  color: #a48971ff;
+  color: #2d3436;
   padding: 1rem; }
 
 header nav li a {
@@ -136,7 +136,7 @@ header nav li a {
   font-size: 0.83rem;
   font-weight: 800;
   display: block;
-  color: #a48971ff;
+  color: #2d3436;
   text-decoration: none;
   text-transform: uppercase;
   position: relative; }
@@ -147,7 +147,7 @@ header nav li a {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #88653d;
+    background-color: black;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s; }
@@ -155,7 +155,7 @@ header nav li a {
     visibility: visible;
     transform: scaleX(1); }
   header nav li a:hover {
-    color: #88653d; }
+    color: black; }
 
 footer .footer {
   display: flex;
@@ -265,10 +265,10 @@ footer .footer-second {
         font-size: 1rem;
         font-weight: 600;
         text-decoration: none;
-        color: #a3b7bf; }
+        color: white; }
       footer .footer-second ul li:after {
         content: "•";
-        color: #a3b7bf;
+        color: #8d6b48;
         margin-left: 1rem; }
     footer .footer-second ul li:last-of-type:after {
       content: "" !important;
@@ -298,12 +298,12 @@ footer .footer-second {
         margin-right: 2rem; }
         .homepage__main--about__wrapper div:first-of-type i {
           font-size: 2rem;
-          color: #a9845aff; }
+          color: #8d6b48; }
       .homepage__main--about__wrapper h3 {
         font-family: 'Lato', sans-serif;
         font-size: 1.25rem;
         font-weight: 800;
-        color: #be986d;
+        color: #2d3436;
         margin-top: 0px; }
     .homepage__main--about p {
       font-size: 1em !important;

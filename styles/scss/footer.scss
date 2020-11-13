@@ -142,12 +142,12 @@ footer {
 				a {
 					@include fontLato(1rem, 600);
 					text-decoration: none;
-					color: darken($light-grey, 20%);
+					color: white;
 				}
 
 				&:after {
 					content: "•";
-					color: darken($light-grey, 20%);
+					color: $footer_color;
 					margin-left: 1rem;
 				}
 			}
