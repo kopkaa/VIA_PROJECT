@@ -104,10 +104,11 @@ header {
 		li {
 			color: $text-color;
 			padding: 1rem;
+			margin-right: 0.875rem;
 		}
 
 		li a {
-			@include fontLato(0.83rem, 800);
+			@include fontLato(0.938rem, 800);
 			display: block;
 			color: $text-color;
 			text-decoration: none;

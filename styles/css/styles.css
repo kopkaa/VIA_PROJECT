@@ -129,11 +129,12 @@ header nav ul {
 
 header nav li {
   color: #2d3436;
-  padding: 1rem; }
+  padding: 1rem;
+  margin-right: 0.875rem; }
 
 header nav li a {
   font-family: 'Lato', sans-serif;
-  font-size: 0.83rem;
+  font-size: 0.938rem;
   font-weight: 800;
   display: block;
   color: #2d3436;
@@ -216,32 +217,6 @@ footer .footer {
     font-size: 0.875rem;
     font-weight: 900;
     color: #a3b7bf; }
-  footer .footer .updates .buttonIn {
-    position: relative;
-    padding-right: 2rem; }
-  footer .footer .updates input {
-    border: 0;
-    margin: 0px;
-    padding: 10px;
-    width: 100%;
-    outline: none;
-    height: 100%;
-    background-color: #a3b7bf;
-    font-family: 'Lato', sans-serif;
-    font-size: 0.875rem;
-    font-weight: 500; }
-  footer .footer .updates button {
-    top: 10%;
-    position: absolute;
-    right: 42px;
-    z-index: 2;
-    border: none;
-    height: 80%;
-    cursor: pointer;
-    color: white;
-    background-color: #a9845aff;
-    font-weight: 600;
-    transform: translateX(2px); }
 
 footer .footer-second {
   width: 100%;
@@ -282,7 +257,7 @@ footer .footer-second {
     flex-direction: column; }
   .homepage__main--intro, .homepage__main--work {
     padding: 0 15vw;
-    margin-top: 6rem; }
+    padding-top: 6rem; }
     .homepage__main--intro__title, .homepage__main--work__title {
       padding: 0 5em; }
   .homepage__main--about {

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kopkaa/VIA_PROJECT#readme",
   "dependencies": {
+    "animejs": "^3.2.1",
     "browser-sync": "^2.26.12",
     "gulp-cli": "^2.3.0"
   },

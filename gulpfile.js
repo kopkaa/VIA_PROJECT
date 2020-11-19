@@ -10,6 +10,11 @@ gulp.task('sass', function(){
       .pipe(browserSync.stream());
   });
 
+gulp.task('default', function () {
+  gulp.src('./node_modules/animejs/lib/anime.min.js')
+  .pipe(gulp.dest('./dist/assets'));
+})
+
 gulp.task('watch', function(){
       browserSync.init({
         server: {
