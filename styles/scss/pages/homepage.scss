@@ -33,7 +33,7 @@
 			    flex-direction: row!important;
 
 			    div:first-of-type {
-			    	margin-right: 2rem;
+			    	margin-right: 1.6rem;
 
 			    	i {
 			    		font-size: 2rem;
@@ -43,15 +43,14 @@
 
 
 		    	h3 {
-						@include fontLato(1.25rem, 800);
-						color: $text-color;
+					@include fontLato(1.25rem, 800);
+					color: $text-color;
 		    		margin-top: 0px;
 		    	}
 			}
 
 			p {
 				font-size: 1em!important;
-				padding-right: 1.8rem;
 			}
 		}
 

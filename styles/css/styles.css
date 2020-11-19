@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap");
 :root {
   font-size: 1em;
   box-sizing: border-box; }
@@ -17,23 +17,26 @@ html, body {
 h2 {
   color: #2d3436;
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.8rem;
   font-weight: 800;
   padding: 0; }
 
 p {
   color: #2d3436;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.65rem;
   margin-top: 0px; }
 
+.ml-14 {
+  margin-left: 14px; }
+
 .green-button {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 300;
   text-transform: uppercase;
   background-color: #be986d;
   display: block;
@@ -61,7 +64,7 @@ header .header__main {
   header .header__main--overlay {
     width: 100%;
     height: 100%;
-    background-color: #be986d;
+    background-color: #8d6b48;
     opacity: 0.325; }
   header .header__main--title {
     position: absolute;
@@ -70,24 +73,23 @@ header .header__main {
     text-align: center;
     padding: 15vw; }
     header .header__main--title .main {
-      font-family: 'Lato', sans-serif;
+      font-family: 'Rubik', sans-serif;
       font-size: 4rem;
-      font-weight: 800;
+      font-weight: 500;
       text-transform: uppercase;
       color: white;
-      text-shadow: 2px 1px #8d6b48;
       margin: 0px !important; }
     header .header__main--title .second {
       display: block;
       color: white;
-      font-family: 'Lato', sans-serif;
+      font-family: 'Rubik', sans-serif;
       font-size: 1.2rem;
-      font-weight: 500;
+      font-weight: 300;
       padding: 0 5em;
-      text-shadow: 2px 1px #8d6b48; }
+      text-shadow: 2px 1px black; }
 
 header .socials {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   display: flex;
@@ -133,7 +135,7 @@ header nav li {
   margin-right: 0.875rem; }
 
 header nav li a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 0.938rem;
   font-weight: 800;
   display: block;
@@ -165,7 +167,7 @@ footer .footer {
   padding: 0 15vw;
   background-color: #8d6b48; }
   footer .footer h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 1rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -197,7 +199,7 @@ footer .footer {
   footer .footer .socials {
     margin-right: auto; }
     footer .footer .socials .icons span {
-      font-family: 'Lato', sans-serif;
+      font-family: 'Rubik', sans-serif;
       font-size: 0.875rem;
       font-weight: 600;
       color: #a3b7bf;
@@ -213,22 +215,23 @@ footer .footer {
   footer .footer a {
     text-align: left;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 0.875rem;
     font-weight: 900;
     color: #a3b7bf; }
 
 footer .footer-second {
   width: 100%;
-  min-height: 120px;
+  min-height: 35px;
   padding: 0 15vw;
   background: #493826;
   flex-direction: row !important;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: center; }
   footer .footer-second p {
     font-size: 0.875rem;
     text-align: left;
+    color: white;
     margin-bottom: 0px !important; }
   footer .footer-second ul {
     list-style-type: none; }
@@ -236,9 +239,9 @@ footer .footer-second {
       float: left;
       margin-left: 1rem; }
       footer .footer-second ul li a {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-size: 1rem;
-        font-weight: 600;
+        font-weight: 300;
         text-decoration: none;
         color: white; }
       footer .footer-second ul li:after {
@@ -270,19 +273,18 @@ footer .footer-second {
       text-align: left;
       flex-direction: row !important; }
       .homepage__main--about__wrapper div:first-of-type {
-        margin-right: 2rem; }
+        margin-right: 1.6rem; }
         .homepage__main--about__wrapper div:first-of-type i {
           font-size: 2rem;
           color: #8d6b48; }
       .homepage__main--about__wrapper h3 {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-size: 1.25rem;
         font-weight: 800;
         color: #2d3436;
         margin-top: 0px; }
     .homepage__main--about p {
-      font-size: 1em !important;
-      padding-right: 1.8rem; }
+      font-size: 1em !important; }
   .homepage__main--work {
     margin-top: 8rem;
     padding: 5rem 15vw;

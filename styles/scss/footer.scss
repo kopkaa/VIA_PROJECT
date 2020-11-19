@@ -86,16 +86,17 @@ footer {
 
 	.footer-second {
 		width: 100%;
-		min-height: 120px;
+		min-height: 35px;
 		padding: 0 $layout_padding;
 		background: darken($footer_color, 20%);
 		flex-direction: row!important;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: center;
 
 		p {
 			font-size: 0.875rem;
 			text-align: left;
+			color: white;
 			margin-bottom: 0px!important;
 		}
 
@@ -107,7 +108,7 @@ footer {
 				margin-left: 1rem;;
 
 				a {
-					@include fontLato(1rem, 600);
+					@include fontLato(1rem, 300);
 					text-decoration: none;
 					color: white;
 				}

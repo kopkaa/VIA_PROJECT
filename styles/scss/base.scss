@@ -26,13 +26,17 @@ h2 {
 
 p {
     color: $text-color;
-    @include fontLato(1.2rem, 500);
+    @include fontLato(1.2rem, 300);
     line-height: 1.65rem;
     margin-top: 0px;
 }
 
+.ml-14 {
+    margin-left: 14px;
+}
+
 .green-button {
-    @include fontLato(1rem, 800 );
+    @include fontLato(1rem, 300);
     text-transform: uppercase;
     background-color: $main_color;
     display: block;

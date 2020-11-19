@@ -14,7 +14,7 @@ header {
     	&--overlay {
 		   width: 100%;
 		   height: 100%;
-		   background-color: $main_color;
+		   background-color: $footer_color;
 		   opacity: 0.325;
     	}
 
@@ -26,19 +26,18 @@ header {
     		padding: $layout_padding;
 
     		.main {
-    			@include fontLato(4rem, 800);
+    			@include fontLato(4rem, 500);
     			text-transform: uppercase;
-					color: white;
-					text-shadow: 2px 1px $footer_color;
+				color: white;
     			margin: 0px!important;
     		}
 
     		.second {
     			display: block;
     			color: white;
-    			@include fontLato(1.2rem, 500);
-					padding: 0 5em;  
-					text-shadow: 2px 1px $footer_color; 		
+    			@include fontLato(1.2rem, 300);
+				padding: 0 5em;  
+				text-shadow: 2px 1px black; 		
     		}
     	}
 
