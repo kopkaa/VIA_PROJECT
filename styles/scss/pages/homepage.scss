@@ -93,6 +93,7 @@
 				.photo-list {
 					flex-direction: row!important;
 					margin-top: 4rem;
+					max-height: 130px;
 
 					img {
 						width: calc(25% - 1.5rem);

@@ -76,18 +76,19 @@ header {
 	}
 
 	nav {
+		border-bottom: 5px solid $main-color;
 		ul {
 			display: flex;
 			align-items: center;
 			position: relative;
-			padding: 0 $layout_padding;
 			list-style-type: none;
 			margin: 0;
 			overflow: hidden;
 			background-color: white;
+			min-height: 35px;
 
 			img {
-				width: 200px;
+				width: 145px;
 				height: auto;
 			}
 
