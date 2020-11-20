@@ -37,15 +37,11 @@
             }
         }
 
-        .homepage {
-            &__main {
-                &--about {
-                    p {
-                        line-height: 1.425rem;
-                    }
-                }
-            }
+
+        p {
+            line-height: 1.425rem;
         }
+
 
     }
 
@@ -56,13 +52,8 @@
     	}
 
 
-    	.homepage {
-            &__main {
-                &--about {
-                    p {
-                        line-height: 1.725rem;
-                    }
-                }
-            }
+        p {
+            line-height: 1.725rem;
         }
+    
     }
