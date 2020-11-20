@@ -77,12 +77,13 @@ header {
 
 	nav {
 		display: flex;
+		align-items: center;
 		border-bottom: 5px solid $main-color;
 		div {
 			flex: 1;
 
 			img {
-				width: 45%;
+				max-width: 100%;
 				height: auto;
 			}
 		}
