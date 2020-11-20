@@ -8,7 +8,7 @@ footer {
 	padding: 0 $layout_padding;
 	background-color: $footer_color;
 
-	h4 {
+	h3 {
 		@include fontLato(1rem, 800);
 		text-transform: uppercase;
 		color: white;
@@ -16,7 +16,7 @@ footer {
 		letter-spacing: 2px;
 	}
 
-	h4:after {
+	h3:after {
 	    content: "";
 	    display: block;
 	    width: 75%; 

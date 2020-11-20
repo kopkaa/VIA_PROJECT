@@ -76,11 +76,20 @@ header {
 	}
 
 	nav {
+		display: flex;
 		border-bottom: 5px solid $main-color;
+		div {
+			flex: 1;
+
+			img {
+				width: 45%;
+				height: auto;
+			}
+		}
 		ul {
 			display: flex;
 			align-items: center;
-			position: relative;
+			justify-content: center;
 			list-style-type: none;
 			margin: 0;
 			overflow: hidden;
@@ -90,14 +99,6 @@ header {
 			img {
 				width: 145px;
 				height: auto;
-			}
-
-			.items {
-				flex-direction: row;
-				display: flex;
-				position: absolute;
-				left: 50%;
-				transform: translateX(-50%);
 			}
 		}
 
