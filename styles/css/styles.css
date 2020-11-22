@@ -225,6 +225,7 @@ footer .footer-second {
   min-height: 35px;
   padding: 0 15vw;
   background: #493826;
+  display: flex;
   flex-direction: row !important;
   align-items: center;
   justify-content: space-between; }
@@ -235,7 +236,8 @@ footer .footer-second {
     padding: 14px 0px;
     margin-bottom: 0px !important; }
   footer .footer-second ul {
-    list-style-type: none; }
+    list-style-type: none;
+    margin: 0px; }
     footer .footer-second ul li {
       float: left;
       margin-left: 1rem; }
@@ -333,6 +335,10 @@ footer .footer-second {
   .homepage__main--workWithUs {
     padding: 5rem 15vw; }
 
+@media only screen and (max-width: 1199px) {
+  .footer {
+    padding: 0 !important; } }
+
 @media only screen and (max-width: 768px) {
   body, html {
     font-size: 14px; }
@@ -352,11 +358,11 @@ li:last-child,
     font-size: 0.8rem; }
     header nav ul img {
       margin-right: 1rem !important; }
-  .homepage__main--about p {
+  p {
     line-height: 1.425rem; } }
 
 @media only screen and (min-width: 1200px) {
   body, html {
     font-size: 16px; }
-  .homepage__main--about p {
+  p {
     line-height: 1.725rem; } }
