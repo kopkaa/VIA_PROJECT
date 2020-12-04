@@ -9,6 +9,7 @@ header {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-attachment: fixed;
 		height: 100%;
 
     	&--overlay {
@@ -42,38 +43,6 @@ header {
     	}
 
     }
-
-
-	.socials {
-		@include fontLato($font_small_text, 600);
-		display: flex;
-		min-height: 2rem;
-		align-items: center;
-		justify-content: space-between;
-		padding: 0 $layout_padding;
-		background-color: $main_color;
-		border-bottom: 1px solid #dfe6c9;
-
-		a {
-			text-decoration: none;
-			color: white;
-			margin-left: 0.5rem;
-
-			i {
-				margin-right: 0.5em;
-			}
-
-			&:hover {
-				color: lighten(white, 20%);
-			}
-		}
-
-		&__contact {
-			a {
-				margin-right: 1.2em;
-			}
-		}
-	}
 
 	nav {
 		display: flex;

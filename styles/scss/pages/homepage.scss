@@ -10,17 +10,19 @@
 
 		&--intro,
 		&--work {
-			padding: 0 $layout_padding;
+			padding: 0 7vw;
 			padding-top: 6rem;
 			&__title {
 				padding: 0 5em;
+				color: $sub_paragraph;
+				font-size: 1rem;
 			}
 		}
 
 		&--about {
 			flex-direction: row!important;
 			justify-content: space-evenly;
-			margin-top: 5rem;
+			margin-top: 8rem;
 
 			div:nth-child(3) {
 				p {
@@ -47,10 +49,6 @@
 					color: $text-color;
 		    		margin-top: 0px;
 		    	}
-			}
-
-			p {
-				font-size: 1em!important;
 			}
 		}
 

@@ -2,12 +2,25 @@
 
     }
 
-    @media only screen and (max-width: 1199px) {
-        .footer {
-            padding: 0!important
+    @media only screen and (max-width: 687px) {
+        .footer-second {
+            justify-content: center!important;
+            ul {
+                display: none;
+            }
         }
     }
 
+
+    @media only screen and (max-width: 900px) {
+        .column {
+            min-width: 250px!important;
+        }
+
+        .footer-second {
+            padding: 0 8vw!important;
+        }
+    }
 
     @media only screen and (max-width: 768px) {
 
@@ -17,15 +30,56 @@
 
     	header nav ul {
     		padding: 0px;
-    		flex-direction: column;eee
+    		flex-direction: column;
 
 			li:last-child,
 			img:nth-child(1) {
 				margin-left: 0px;
 				margin-right: 0px;
 			}
+        }
+        
+        .footer {
+            flex-direction: column!important;
 
-    	}
+            .logo {
+                min-height: 200px!important;
+            }
+
+            .column {
+                margin-bottom: 1rem!important;
+            }
+            h3 {
+                margin-top: 2rem!important;
+                text-align: center;
+                position: relative;
+
+                &:after {
+                    width: 90%!important;
+                    position: absolute;
+                    left: 5%;
+                    margin-bottom: 8px;
+                }
+            }
+
+            p {
+                padding-right: 0px!important;
+                max-width: 90%;
+                margin-left: 5%;
+                margin-top: 2rem;
+            }
+
+            .icons {
+                max-width: 90%;
+                margin-left: 5%;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+
+                span {
+                    margin-bottom: 1rem!important;
+                }
+            }
+        }
 
     }
 
@@ -48,7 +102,9 @@
             line-height: 1.425rem;
         }
 
-
+        .footer {
+            padding: 0!important
+        }
     }
 
     @media only screen and (min-width: 1200px) {
