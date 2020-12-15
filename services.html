@@ -29,7 +29,16 @@
           <li><a href="gallery.html">Galerie</a></li>
           <li><a href="contact.html">Kontakt</a></li>
       </ul>
-      <div></div>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Úvod</a>
+            <a href="services.html">Služby</a>
+            <a href="gallery.html">Galerie</a>
+            <a href="contact.html">Kontakt</a>
+        </div>
+      </div>
+      <div><a class="hamburger">☰</a></div>
     </nav>
     <div class="header__main--services">
       <div class="header__main--overlay"></div>
@@ -91,6 +100,7 @@
       </div>
       <div class="footer-second">
         <p> &copy; Created by <a href="mailto:janxhromadka@outlook.cz">Jan Hromádka</a></p>
+        <span>Čas do nového roku: </span><p id="counter"> </p>
         <ul>
           <li><a href="default.asp">Úvod</a></li>
           <li><a href="news.asp">Služby</a></li>

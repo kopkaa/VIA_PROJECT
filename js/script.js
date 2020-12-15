@@ -21,6 +21,14 @@ lightbox.option({
   'albumLabel': "Obrázek %1 ze %2"
 })
 
+function openNav() {
+  document.getElementById("myNav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.display = "none";
+}
+
 
 // date counter
 var targetDate = new Date("Jan 01, 2021 00:00:01").getTime();
@@ -43,4 +51,6 @@ var x = setInterval(function() {
         document.getElementById("counter").innerHTML = "DONE";
     }
 }, 1000);
+
+
 
