@@ -13,3 +13,10 @@ if(btn !== null || scrollElement !== null) {
 
 
 /* END SCROLLING ANIMATIONS */
+
+
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true,
+  'albumLabel': "Obrázek %1 of %2"
+})

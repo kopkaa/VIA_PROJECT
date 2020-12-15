@@ -33,27 +33,6 @@ p {
 .ml-14 {
   margin-left: 14px; }
 
-.green-button {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  background-color: #be986d;
-  display: block;
-  margin: auto;
-  margin-top: 2.5rem;
-  border: none;
-  border-radius: 3px;
-  color: white;
-  padding: 1rem 2rem;
-  transition: 0.3s; }
-  .green-button a {
-    text-decoration: none;
-    color: white; }
-  .green-button:hover {
-    cursor: pointer;
-    background-color: #785d3f; }
-
 header .header__main {
   position: relative;
   display: flex;
@@ -142,6 +121,27 @@ header nav {
       transform: scaleX(1); }
     header nav li a:hover {
       color: black; }
+
+.green-button {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: #be986d;
+  display: block;
+  margin: auto;
+  margin-top: 2.5rem;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 1rem 2rem;
+  transition: 0.3s; }
+  .green-button a {
+    text-decoration: none;
+    color: white; }
+  .green-button:hover {
+    cursor: pointer;
+    background-color: #785d3f; }
 
 footer .footer {
   display: flex;
@@ -315,12 +315,11 @@ footer .footer-second {
             font-size: 0.875rem; }
       .homepage__main--work__wrapper .photo-list {
         flex-direction: row !important;
-        margin-top: 4rem;
-        max-height: 130px; }
-        .homepage__main--work__wrapper .photo-list img {
+        margin-top: 4rem; }
+        .homepage__main--work__wrapper .photo-list a {
           width: calc(25% - 1.5rem);
           margin-left: 2rem; }
-        .homepage__main--work__wrapper .photo-list img:nth-of-type(1) {
+        .homepage__main--work__wrapper .photo-list a:nth-of-type(1) {
           margin-left: 0 !important; }
         .homepage__main--work__wrapper .photo-list__controls {
           flex-direction: row !important;

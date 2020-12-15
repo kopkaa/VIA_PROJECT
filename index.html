@@ -6,13 +6,15 @@
     <meta name="description" content="Tesařství kabeláč. Tesařské práce všeho druhu. Rekonstrukce střech, podlah, dřevěnic, srubů, pokrývačské práce"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/44fe084f26.js" crossorigin="anonymous"></script>
+    <script defer src="./js/lib/anime.min.js"></script>
+    <script defer src="./js/lib/jquery-3.5.1.min.js"></script>
+    <script defer src="./js/lib/lightbox.js"></script>
+    <script defer src="./js/script.js"></script>
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Serif" />
     <link rel="stylesheet" type="text/css" href="styles/css/styles.css">
-    <script src="https://kit.fontawesome.com/44fe084f26.js" crossorigin="anonymous"></script>
-    <script defer src="./dist/assets/anime.min.js"></script>
-    <script defer src="./js/animations.js"></script>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link href="style.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="styles/css/lightbox.css">
   </head>
   <body>
     <header>
@@ -36,8 +38,8 @@
         <img width="140" height="140" alt="logo" title="logo" src="./img/teskab_final_png.png" />
       </div> 
       <ul>
-          <li><a href="default.asp">Úvod</a></li>
-          <li><a href="news.asp">Služby</a></li>
+          <li><a href="index.html">Úvod</a></li>
+          <li><a href="services.html">Služby</a></li>
           <li><a href="about.asp">Galerie</a></li>
           <li><a href="contact.html">Kontakt</a></li>
       </ul>
@@ -97,24 +99,24 @@
       <p class="homepage__main--intro__title">Zde je pár ukázek našich posledních prací</p>
       <div class="homepage__main--work__wrapper">
         <div class="card">
-          <img src="./img/work/01.jpg" alt="reference" title="reference"></img>
+          <a href="./img/work/01.jpg" data-lightbox="show-1" data-title="Práce"><img src="./img/work/01.jpg" alt="reference" title="reference"></img></a>
           <span class="card__text">
             <p><b>Realizace pergoly</b></p> 
             <p class="card__text--small">Pergoly</p> 
           </span>
         </div>
         <div class="card">
-          <img src="./img/work/strecha02.jpg" alt="reference" title="reference"></img>
+          <a href="./img/work/strecha02.jpg" data-lightbox="show-1" data-title="Práce"><img src="./img/work/strecha02.jpg" alt="reference" title="reference"></img></a>
           <span class="card__text">
             <p><b>Realizace střesního krovu</b></p> 
             <p class="card__text--small">Krovy</p> 
           </span>
         </div>
         <div class="photo-list">
-            <img src="./img/work/zahrada01.jpg" alt="reference" title="reference"></img>
-            <img src="./img/work/podlaha01.jpg" alt="reference" title="reference"></img>
-            <img src="./img/work/zahrada03.jpg" alt="reference" title="reference"></img>
-            <img src="./img/work/krov04.jpg" alt="reference" title="reference"></img>
+            <a href="./img/work/zahrada03.jpg" data-lightbox="show-1" data-title="Práce"><img src="./img/work/zahrada03.jpg" class="" alt="práce"></a>
+            <a href="./img/work/zahrada01.jpg" data-lightbox="show-1" data-title="Práce"><img src="./img/work/zahrada01.jpg" class="" alt="práce"></a>
+            <a href="./img/work/podlaha01.jpg" data-lightbox="show-1" data-title="Práce"><img src="./img/work/podlaha01.jpg" class="" alt="práce"></a>
+            <a href="./img/work/krov04.jpg" data-lightbox="show-1" data-title="Práce"><img src="./img/work/krov04.jpg" class="" alt="práce"></a>
         </div>
         <div class="photo-list__controls">
             <span class="dot"></span>
@@ -156,7 +158,7 @@
         <p> &copy; Created by <a href="mailto:janxhromadka@outlook.cz">Jan Hromádka</a></p>
         <ul>
           <li><a href="index.html">Úvod</a></li>
-          <li><a href="news.asp">Služby</a></li>
+          <li><a href="services.html">Služby</a></li>
           <li><a href="about.asp">Galerie</a></li>
           <li><a href="contact.html">Kontakt</a></li>
         </ul>
