@@ -24,7 +24,6 @@ header {
     		bottom: 50%;
 		    transform: translateY(50%);
     		text-align: center;
-    		padding: $layout_padding;
 
     		.main {
     			@include fontLato(4rem, 500);

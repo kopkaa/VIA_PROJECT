@@ -18,5 +18,29 @@ if(btn !== null || scrollElement !== null) {
 lightbox.option({
   'resizeDuration': 200,
   'wrapAround': true,
-  'albumLabel': "Obrázek %1 of %2"
+  'albumLabel': "Obrázek %1 ze %2"
 })
+
+
+// date counter
+var targetDate = new Date("Jan 01, 2021 00:00:01").getTime();
+
+var x = setInterval(function() {
+    var now = new Date().getTime();
+
+    var distance = targetDate - now;
+
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("counter").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("counter").innerHTML = "DONE";
+    }
+}, 1000);
+

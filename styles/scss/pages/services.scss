@@ -1,0 +1,134 @@
+#services {
+  background-color: $light-grey;
+  padding-top: 7rem;
+  h2,p {
+    text-align: center;
+    margin: 0px;
+  }
+
+  h2 {
+    margin-bottom: 4rem;
+  }
+
+  p {
+    color: #696969;
+    font-size: 1rem;
+    
+  }
+
+  .line {
+    width: 100%;
+    min-height: 125px;
+    background-color: darken($light-grey, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      color:white;
+    }
+
+    span {
+      @include fontLato(1rem, 500);
+      color: white;
+      display: inline-block;
+
+      i {
+        margin-right: 0.5rem;
+      }
+
+      &:first-of-type {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  .services {
+      padding-top: 2rem;
+      padding-bottom: 8rem;
+
+      &__row {
+          display: flex;
+          justify-content: space-evenly;
+
+          .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+              width: 130px;
+              margin-bottom: 2rem;
+            }
+
+            h3 {
+                font-family: 'Rubik', sans-serif;
+                font-size: 1.25rem;
+                font-weight: 800;
+                color: #2d3436;
+                margin-top: 0px;
+            }
+
+          }
+      }
+
+      &__more {
+          padding: 7px;
+          background: transparent;
+          border: 1px solid black;
+          border-radius: 12px;
+          margin-top: 1rem;
+          min-width: 85px;
+
+          &:hover {
+            border-color: #8d6b48;
+            color: #8d6b48;
+            cursor: pointer;          
+          }
+      }
+
+  }
+
+}
+
+.header__main--services {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url('../../img/work/04.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 60%;
+
+      &--overlay {
+         width: 100%;
+         height: 100%;
+         background-color: $footer_color;
+         opacity: 0.325;
+      }
+
+      &--title {
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(50%);
+        text-align: center;
+
+        .main {
+          @include fontLato(4rem, 500);
+          text-transform: uppercase;
+          color: white;
+          margin: 0px!important;
+        }
+
+        .second {
+          display: block;
+          color: white;
+          @include fontLato(1.2rem, 300);
+          padding: 0 5em;  
+          text-shadow: 2px 1px black;     
+        }
+      }
+  }
