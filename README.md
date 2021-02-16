@@ -2,8 +2,6 @@
 
 HTML, SCSS, JavaScript WebSite to school course.
 
-Do ```npm install``
-Run project with ```gulp watch```
+Do ```npm install```
+Run project with  ```gulp watch```
 
-### Design
-![alt homepage](./web4.jpg)
