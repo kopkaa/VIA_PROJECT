@@ -26,7 +26,7 @@ h2 {
 
 p {
     color: $text-color;
-    @include fontLato(1rem, 300);
+    @include fontLato(1rem, 500);
     margin-top: 0px;
 }
 

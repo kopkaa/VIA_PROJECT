@@ -40,14 +40,17 @@
 			    	i {
 			    		font-size: 2rem;
 			    		color: $footer-color;
+			    		margin-right: 12px;
 			    	}
 			    }
 
 
 		    	h3 {
-					@include fontLato(1.25rem, 800);
-					color: $text-color;
-		    		margin-top: 0px;
+						@include fontLato(1.25rem, 800);
+						display: flex;
+						align-items: center;
+						color: $text-color;
+			    	margin-top: 0px;
 		    	}
 			}
 		}
